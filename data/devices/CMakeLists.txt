@@ -32,6 +32,7 @@ set(files
     oppo.yml
     oukitel.yml
     pantech.yml
+    prestigio.yml
     quantum.yml
     samsung/00_galaxy_s.yml
     samsung/01_galaxy_note.yml
