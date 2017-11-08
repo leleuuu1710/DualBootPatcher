@@ -37,6 +37,7 @@ set(files
     oppo.yml
     oukitel.yml
     pantech.yml
+    positivo.yml
     quantum.yml
     samsung/00_galaxy_s.yml
     samsung/01_galaxy_note.yml
@@ -48,6 +49,8 @@ set(files
     samsung/07_other.yml
     sony.yml
     symphony.yml
+    symphony20.yml
+    symphony75.yml
     tecno.yml
     umi.yml
     walton.yml
