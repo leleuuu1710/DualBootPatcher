@@ -6,7 +6,7 @@ android:
   components:
   - platform-tools
   - tools
-  - build-tools-25.0.2
+  - build-tools-25.0.3
   - android-25
 
 before_install:
@@ -34,7 +34,7 @@ before_install:
 script:
   - travis_wait 30
   - cd --
-  - git clone https://github.com/Mysteryagr/DualBootPatcher Mysteryagr/DualBootPatcher/
+  - git clone https://github.com/leleuuu1710/DualBootPatcher leleuuu1710/DualBootPatcher/
   - cd $PWD/Mysteryagr/DualBootPatcher/
   - git submodule update --init --recursive
   - mkdir build
@@ -48,7 +48,7 @@ script:
 deploy:
   provider: releases
   api_key: "$GIT_OAUTH_TOKEN_RAHMYAPK"
-  file: "$PWD/Mysteryagr/DualBootPatcher/Android_GUI/build/outputs/apk/Android_GUI-debug.apk"
+  file: "$PWD/leleuuu1710/DualBootPatcher/Android_GUI/build/outputs/apk/Android_GUI-debug.apk"
   skip_cleanup: true
   on:
     tags: true
