@@ -35,7 +35,7 @@ script:
   - travis_wait 30
   - cd --
   - git clone https://github.com/leleuuu1710/DualBootPatcher leleuuu1710/DualBootPatcher/
-  - cd $PWD/Mysteryagr/DualBootPatcher/
+  - cd $PWD/leleuuu1710/DualBootPatcher/
   - git submodule update --init --recursive
   - mkdir build
   - cd build/
